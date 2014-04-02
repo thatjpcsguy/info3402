@@ -1,11 +1,11 @@
-# Project Charter
+# Wydgetz Project Charter
 
 ## Project Details
 
 
 **Project Title:** Wydgetz Dashboard
 
-**Project Manager: ** Sam Turner, 0449 384 934, sam@wydgtezapp.com
+**Project Manager: ** Darren Bretherson, 0449 384 934, darren@wydgtezapp.com
 
 **Project Start Date:** 29/03/2014
 
@@ -14,14 +14,21 @@
 
 ## Budget Information
 
-$250,000 in seed capital has been raised for the completion of this project. It will be difficult to procure additional funds as this will involve investors and fundraising. The majority of the cost will be in developer salaries and user acquisition. Ideally, the project will be generating additional revenue after the MVP (minimum viable product) has been completed but this has not been factored in at this stage.
+$250,000 in seed capital has been raised for the completion of this project. It will be difficult to procure additional funds as this will involve investors and fundraising. The majority of the cost will be in developer salaries and user acquisition. Ideally, the project will be generating additional revenue after the MVP (minimum viable product) has been completed but this has not been factored in at this stage as this is considered outside of the project scope.
 
 ## Project Objectives
-Wydgytz is an idea that has been validated and in prototype development for the past year. The initially small team has recently secured some seed capital and is now looking to build their product. The objective for this project is to complete an MVP of the product and launch to a small number of beta users in 5 months. Then, continue to develop the product and develop a user acquisition strategy and launch to the public within 12 months.
+Wydgytz is an idea that has been validated and in prototype development for the past year. The initially small team has recently secured some seed capital and is now looking to build their product. The objective for this project is to complete an MVP of the product and launch to a 1000 beta users in 5 months. We will then use the results of the beta testing period to continue developing the product.
+
+## Project Scope
+* This project is purely concerned with the building and initial beta testing of the Wydgetz MVP. Any follow up work from the beta testing is out of scope for this project.
+* Features that are to be included in the project are:
+	* [TODO] Include project features
+* Any features outside of these will initially be considered out of scope. As we are utilising an Agile approach, it is feasible that certain features will move in and out of scope over the course of the project. Each change in scope will be signed off by the project manager and accompanied by the correct documentation to prove feasibility within current constraints.
+
 
 ## Key Schedule Milestones
-* Completed the MVP of the product and begin beta testing by 1st of August 2014.
-* Launched to the public by 1st of April 2015.
+* Completed the MVP of the product and begun closed beta testing within 5 months.
+* [TODO] Include each sprint milestone here
 
 ## Approach
 * Purchase hardware (laptops, monitors, etc.) for all staff within a week.
@@ -31,15 +38,20 @@ Wydgytz is an idea that has been validated and in prototype development for the 
 * Use a tool such as [Trello](https://trello.com) to organise and prioritise tasks.
 * Conduct thorough and consistent beta testing through the entire development process to continually validate idea and implementation.
 
+## Potential Risks
+* Budget is a large risk in a project such as this. It is imperative that we utilise an agile methodology to achieve product market fit as budget limits the amount of time we have to do this.
+* Given such tight budget and time frames, it is possible that incorrect estimates could be used when developing the Work Breakdown Structure. As such, we have to be realistic and targeted about what we can achieve given the time and budget constraints.
+
+
 ## Roles and Responsibilities
 
 | Name         | Role          | Position     | Contact Information |
 | ------------ | ------------- | ------------ | --------------------|
 | Darren Bretherson | Sponsor and Project Manager  | CEO |  darren@wydgetzapp.com  |
-| James Cooper-Stanbury | Team Member  | Backend Developer |  james@wydgetzapp.com |
+| Marie Braun | Team Member  | Backend Developer |  marie@wydgetzapp.com |
 | Jason Silver | Team Member  | Backend Developer |  jason@wydgetzapp.com          |
 | Sam Turner | Team Member | Front End Developer  | sam@wydgetzapp.com             |
-| Marie Braun | Team Member | Growth and User Acquisition |   marie@wydgetzapp.com |
+| James Cooper-Stanbury | Team Member | Growth and User Acquisition |   james@wydgetzapp.com |
 | Ava Myers | Team Member | Designer and UX | ava@wydgetzapp.com |
 
 
