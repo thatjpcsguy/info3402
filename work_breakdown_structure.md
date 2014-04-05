@@ -70,9 +70,9 @@
 
 
 ### Sprint 7
-*Thourough testing on Facebook feature
-*Thourough testing on Twitter feature
-*Thourough testing on Instagram feature
+* Thourough testing on Facebook feature
+* Thourough testing on Twitter feature
+* Thourough testing on Instagram feature
 
 
 ### Sprint 8
