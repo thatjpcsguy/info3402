@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="aSZSGnuJ67x">
+  <start-date>2014-04-06T14:00:00.000Z</start-date>
+  <granularity>days</granularity>
+  <prototype-task>
+    <task id="t4294967294">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t4294967293">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t4294967292">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r4294967294">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967293">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967292">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967291">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <child-resource idref="r1"/>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+  </resource>
+  <resource id="r1">
+    <name>Backend Developers</name>
+    <type>Group</type>
+  </resource>
+  <resource id="r2">
+    <name>Frontend Developers</name>
+    <type>Group</type>
+  </resource>
+  <resource id="r3">
+    <name>Designers</name>
+    <type>Group</type>
+    <child-resource idref="r4"/>
+    <child-resource idref="r5"/>
+  </resource>
+  <resource id="r4">
+    <name>Growth &amp; User Acquisition</name>
+    <type>Group</type>
+  </resource>
+  <resource id="r5">
+    <name>Management</name>
+    <type>Group</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t17"/>
+    <child-task idref="t34"/>
+    <child-task idref="t44"/>
+  </task>
+  <task id="t1">
+    <title>Sprint 1</title>
+    <type>group</type>
+    <child-task idref="t4"/>
+    <child-task idref="t7"/>
+    <child-task idref="t8"/>
+    <child-task idref="t9"/>
+    <child-task idref="t15"/>
+    <child-task idref="t10"/>
+    <child-task idref="t5"/>
+    <child-task idref="t11"/>
+  </task>
+  <task id="t4">
+    <title>Get set up with Equipment</title>
+    <effort>57600</effort>
+    <prerequisite-task idref="t7" kind="SF"/>
+    <prerequisite-task idref="t11" kind="SF"/>
+  </task>
+  <task id="t5">
+    <title>Develop Implementation Strategy</title>
+    <effort>86400</effort>
+    <start-constraint-date>2014-04-10T22:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t10"/>
+    <start-no-earlier-than>2014-04-10T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t7">
+    <title>Set up development Environment</title>
+    <effort>57600</effort>
+    <start-constraint-date>2014-04-08T22:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t8" kind="SF"/>
+    <prerequisite-task idref="t9" kind="SF"/>
+    <prerequisite-task idref="t15" kind="SF"/>
+    <start-no-earlier-than>2014-04-08T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t8">
+    <title>Buy Servers</title>
+    <effort>18000</effort>
+    <start-constraint-date>2014-04-13T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-13T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t9">
+    <title>Buy Domain Names</title>
+    <effort>18900</effort>
+    <start-constraint-date>2014-04-13T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-13T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t10">
+    <title>Define the scope of the MVP</title>
+    <effort>86400</effort>
+    <start-constraint-date>2014-04-07T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-07T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t11">
+    <title>UI Designs for Authentication and Account Management</title>
+    <effort>259200</effort>
+    <start-constraint-date>2014-04-08T22:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t27" kind="SF"/>
+    <prerequisite-task idref="t28" kind="SF"/>
+    <start-no-earlier-than>2014-04-08T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t15">
+    <title>Initial Code Base Setup</title>
+    <effort>172800</effort>
+    <start-constraint-date>2014-04-13T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-13T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t17">
+    <title>Sprint 2</title>
+    <type>group</type>
+    <start-constraint-date>2014-04-21T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t19"/>
+    <child-task idref="t29"/>
+    <child-task idref="t27"/>
+    <child-task idref="t28"/>
+    <child-task idref="t21"/>
+    <child-task idref="t24"/>
+    <child-task idref="t25"/>
+    <child-task idref="t22"/>
+    <start-no-earlier-than>2014-04-21T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t19">
+    <title>Backend Implementation for Authentication and Account Management</title>
+    <effort>144000</effort>
+    <start-constraint-date>2014-04-21T22:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t27" kind="SS"/>
+    <prerequisite-task idref="t28" kind="SS"/>
+    <start-no-earlier-than>2014-04-21T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t21">
+    <title>Designs for Email Integration</title>
+    <effort>172800</effort>
+    <start-constraint-date>2014-04-27T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-27T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t22">
+    <title>Validation for Calendar Integration</title>
+    <effort>144000</effort>
+  </task>
+  <task id="t24">
+    <title>Designs for Calendar Integration</title>
+    <effort>172800</effort>
+    <start-constraint-date>2014-04-27T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-27T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t25">
+    <title>Validation for Email Integration</title>
+    <effort>144000</effort>
+  </task>
+  <task id="t27">
+    <title>Front End Implementation of Log In and Log Out Designs</title>
+    <effort>115200</effort>
+  </task>
+  <task id="t28">
+    <title>Front End Implementation of Account Management Designs</title>
+    <effort>288000</effort>
+  </task>
+  <task id="t29">
+    <title>Backend Implementation of Base API</title>
+    <effort>288000</effort>
+  </task>
+  <task id="t34">
+    <title>Sprint 3</title>
+    <type>group</type>
+    <start-constraint-date>2014-05-05T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t36"/>
+    <child-task idref="t38"/>
+    <child-task idref="t52"/>
+    <child-task idref="t53"/>
+    <child-task idref="t39"/>
+    <child-task idref="t40"/>
+    <child-task idref="t41"/>
+    <child-task idref="t42"/>
+    <start-no-earlier-than>2014-05-05T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t36">
+    <title>Backend Implementation for Email</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-05-05T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-05-05T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t38">
+    <title>Backend Implementation for Calendar</title>
+    <effort>288000</effort>
+  </task>
+  <task id="t39">
+    <title>Designs for Weather Integration</title>
+    <effort>172800</effort>
+    <start-constraint-date>2014-05-11T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-05-11T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t40">
+    <title>Designs for Time Integration</title>
+    <effort>172800</effort>
+    <start-constraint-date>2014-05-11T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-05-11T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t41">
+    <title>Validation for Weather Integration</title>
+    <effort>144000</effort>
+    <prerequisite-task idref="t39" kind="SF"/>
+  </task>
+  <task id="t42">
+    <title>Validation for Time Integration</title>
+    <effort>144000</effort>
+    <prerequisite-task idref="t40" kind="SF"/>
+  </task>
+  <task id="t44">
+    <title>Sprint 4</title>
+    <type>group</type>
+    <start-constraint-date>2014-05-19T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t46"/>
+    <child-task idref="t47"/>
+    <child-task idref="t55"/>
+    <child-task idref="t56"/>
+    <child-task idref="t48"/>
+    <child-task idref="t49"/>
+    <child-task idref="t50"/>
+    <child-task idref="t51"/>
+    <start-no-earlier-than>2014-05-19T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t46">
+    <title>Backend Implementation for Weather</title>
+    <effort>288000</effort>
+  </task>
+  <task id="t47">
+    <title>Backend Implementation for Time</title>
+    <effort>288000</effort>
+  </task>
+  <task id="t48">
+    <title>Designs for Github Integration</title>
+    <effort>172800</effort>
+    <start-constraint-date>2014-05-25T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-05-25T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t49">
+    <title>Designs for Klout Integration</title>
+    <effort>172800</effort>
+    <start-constraint-date>2014-05-25T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-05-25T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t50">
+    <title>Validation for Github Integration</title>
+    <effort>144000</effort>
+    <prerequisite-task idref="t48" kind="SF"/>
+  </task>
+  <task id="t51">
+    <title>Validation for Klout Integration</title>
+    <effort>144000</effort>
+    <prerequisite-task idref="t49" kind="SF"/>
+  </task>
+  <task id="t52">
+    <title>Front End Implementation of Email Integration</title>
+    <effort>144000</effort>
+    <start-constraint-date>2014-05-12T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-05-12T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t53">
+    <title>Front End Implementation of Calendar Integration</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-05-05T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-05-05T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t55">
+    <title>Front End Implementation for Time</title>
+    <effort>144000</effort>
+    <start-constraint-date>2014-05-19T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-05-19T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t56">
+    <title>Front End Implementation for Weather</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-05-19T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-05-19T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
