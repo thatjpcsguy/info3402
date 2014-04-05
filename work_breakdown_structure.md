@@ -63,9 +63,9 @@
 
 
 ### Sprint 
-*Complete Facebook Integration
-*Complete Twitter Integration
-*Complete Instagram Integration
+* Complete Facebook Integration
+* Complete Twitter Integration
+* Complete Instagram Integration
 
 
 
