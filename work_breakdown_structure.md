@@ -57,11 +57,23 @@
 * Validation for Github and Klout Integration
 
 ### Sprint 5
+* Propose various Designs for Facebook Integration
+* Propose various Designs for Twitter Integration
+* Propose various Designs for Instagram Integration
 
 
-### Sprint 6
+### Sprint 
+*Complete Facebook Integration
+*Complete Twitter Integration
+*Complete Instagram Integration
+
+
 
 ### Sprint 7
+*Thourough testing on Facebook feature
+*Thourough testing on Twitter feature
+*Thourough testing on Instagram feature
+
 
 ### Sprint 8
 
