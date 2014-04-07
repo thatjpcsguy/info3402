@@ -60,6 +60,8 @@
 * Propose various Designs for Facebook Integration
 * Propose various Designs for Twitter Integration
 * Propose various Designs for Instagram Integration
+* Finalise scope of Social Features
+* Finalise development and integration schedule
 
 
 ### Sprint 6 - Due 13/5
@@ -72,8 +74,17 @@
 
 ### Sprint 7 - Due 20/5
 * Thourough testing on Facebook feature
+	* Check Security
+	* Ensure facebook feature is complete and robust
+	* Ensure does not effect other functions of Wydgets
 * Thourough testing on Twitter feature
+	* Check security
+	* Ensure twitter feature is complete and robust
+	* confirm Twitter works with Facebook and does not effect other features
 * Thourough testing on Instagram feature
+	* Check security
+	* Ensure instagram feature is complete and robust
+* Conduct tests on all areas of features up to this point
 
 
 ### Sprint 8 - Due 27/5
