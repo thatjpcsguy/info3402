@@ -190,6 +190,38 @@
       <change idref="t51" attribute="title" type="string" to="Validation for Klout Integration"/>
     </change>
   </task-change-set>
+  <task-change-set user="Sam Turner" date="2014-04-07T01:48:00.619Z" timestamp="2014-04-07T01:48:00.619Z">
+    <change idref="t57" to="t-1" to-position="4">
+      <change idref="t57" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t57" attribute="noEarlierThanConstraintDate" type="date" to="2014-06-02T22:00:00.000Z"/>
+      <change idref="t57" attribute="title" type="string" to="Sprint 5"/>
+    </change>
+    <change idref="t58" to="t-1" to-position="5">
+      <change idref="t58" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t58" attribute="noEarlierThanConstraintDate" type="date" to="2014-06-16T22:00:00.000Z"/>
+      <change idref="t58" attribute="title" type="string" to="Sprint 6"/>
+    </change>
+    <change idref="t59" to="t-1" to-position="6">
+      <change idref="t59" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t59" attribute="noEarlierThanConstraintDate" type="date" to="2014-06-30T22:00:00.000Z"/>
+      <change idref="t59" attribute="title" type="string" to="Sprint 7"/>
+    </change>
+    <change idref="t60" to="t-1" to-position="7">
+      <change idref="t60" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t60" attribute="noEarlierThanConstraintDate" type="date" to="2014-07-14T22:00:00.000Z"/>
+      <change idref="t60" attribute="title" type="string" to="Sprint 8"/>
+    </change>
+    <change idref="t61" to="t-1" to-position="8">
+      <change idref="t61" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t61" attribute="noEarlierThanConstraintDate" type="date" to="2014-07-28T22:00:00.000Z"/>
+      <change idref="t61" attribute="title" type="string" to="Sprint 9"/>
+    </change>
+    <change idref="t62" to="t-1" to-position="9">
+      <change idref="t62" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t62" attribute="noEarlierThanConstraintDate" type="date" to="2014-08-11T22:00:00.000Z"/>
+      <change idref="t62" attribute="title" type="string" to="Sprint 10"/>
+    </change>
+  </task-change-set>
   <resource-change-set user="Sam Turner" date="2014-04-05T00:51:51.557Z" timestamp="2014-04-05T00:51:51.557Z">
     <change idref="r2" to="r-1" to-position="1" resolved="yes">
       <change idref="r2" attribute="isGroup" type="real" from="0" to="1"/>

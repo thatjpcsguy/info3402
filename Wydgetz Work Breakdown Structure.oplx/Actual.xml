@@ -82,6 +82,12 @@
     <child-task idref="t17"/>
     <child-task idref="t34"/>
     <child-task idref="t44"/>
+    <child-task idref="t57"/>
+    <child-task idref="t58"/>
+    <child-task idref="t59"/>
+    <child-task idref="t60"/>
+    <child-task idref="t61"/>
+    <child-task idref="t62"/>
   </task>
   <task id="t1">
     <title>Sprint 1</title>
@@ -316,6 +322,42 @@
     <effort>288000</effort>
     <start-constraint-date>2014-05-19T22:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2014-05-19T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t57">
+    <title>Sprint 5</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-06-02T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-06-02T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t58">
+    <title>Sprint 6</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-06-16T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-06-16T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t59">
+    <title>Sprint 7</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-06-30T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-06-30T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t60">
+    <title>Sprint 8</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-07-14T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-07-14T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t61">
+    <title>Sprint 9</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-07-28T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-07-28T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t62">
+    <title>Sprint 10</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-08-11T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-08-11T22:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

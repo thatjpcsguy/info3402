@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="0" y="0" w="2560" h="1388">
+  <window x="2558" y="34" w="1440" h="878">
     <editing-scenario>aSZSGnuJ67x</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>384</split-view-divider-position>
-      <outline x="0" y="0" w="384" h="1346">
+      <outline x="0" y="0" w="384" h="774">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="269"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t1 t17 t34 t44"/>
-        <selected-items-at-filter-time idrefs="t17 t24 t31 t18 t32 t25 t33 t26 t19 t40 t34 t27 t41 t28 t35 t42 t2 t50 t36 t29 t43 t3 t4 t44 t37 t51 t5 t38 t45 t52 t10 t6 t7 t53 t11 t8 t39 t46 t9 t54 t12 t47 t55 t20 t13 t48 t56 t14 t49 t21 t15 t22 t30 t16 t23"/>
+        <selected-items-at-filter-time idrefs="t50 t58 t8 t51 t59 t27 t9 t46 t52 t28 t47 t15 t34 t53 t21 t29 t40 t48 t22 t41 t49 t17 t60 t36 t55 t42 t10 t61 t56 t24 t4 t11 t19 t62 t5 t38 t57 t25 t44 t63 t39 t7"/>
       </outline>
-      <gantt-view x="78.5" y="0" w="2175" h="1346">
+      <gantt-view x="4605.5" y="0" w="1055" h="774">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -61,16 +60,16 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="806">
+      <outline x="0" y="0" w="306" h="1284">
         <column name="IM" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="150"/>
         <column name="#" width="75"/>
         <expanded-items idrefs="r3"/>
-        <selected-items-at-filter-time idrefs="r4 r3 r6 r2 r5"/>
+        <selected-items-at-filter-time idrefs="r4 r3 r2 r5"/>
       </outline>
-      <timeline x="-187" y="0" w="1105" h="806">
+      <timeline x="-159" y="0" w="2225" h="1284">
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
           <key>Title</key>
@@ -113,7 +112,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="491">
+      <outline x="0" y="0" w="290" h="1249">
         <column name="IM" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
@@ -125,7 +124,7 @@
   </window>
   <project>
     <title>Wydgetz Work Breakdown Structure</title>
-    <next-task-id>57</next-task-id>
+    <next-task-id>64</next-task-id>
     <next-resource-id>7</next-resource-id>
     <scenario id="aSZSGnuJ67x" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="false" seconds="false"/>
