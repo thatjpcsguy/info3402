@@ -67,13 +67,13 @@
 ### Sprint 6 - Due 13/5
 * Complete Facebook Integration
 	* Backend 
-	* front end (gui)
+	* front end 
 * Complete Twitter Integration
 * 	* Backend 
-	* front end (gui)
+	* front end 
 * Complete Instagram Integration
 * 	* Backend 
-	* front end (gui)
+	* front end 
 * Organise partnerships with leading companies who might develop wydgetz for their own services.
 
 
@@ -89,8 +89,11 @@
 	* confirm Twitter works with Facebook and does not effect other features
 * Thourough testing on Instagram feature
 	* Check security
-	* Ensure instagram feature is complete and robust
+	* Ensure instagram feature is commplete and robust
 * Conduct tests on all areas of features up to this point
+* Ensure consistincy amongst the features
+	* make necessary modifications
+
 
 
 ### Sprint 8 - Due 27/5
