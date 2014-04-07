@@ -69,10 +69,10 @@
 	* Backend 
 	* front end 
 * Complete Twitter Integration
-* 	* Backend 
+ 	* Backend 
 	* front end 
 * Complete Instagram Integration
-* 	* Backend 
+ 	* Backend 
 	* front end 
 * Organise partnerships with leading companies who might develop wydgetz for their own services.
 
@@ -110,7 +110,9 @@
 * Open Up Beta Registrations to small community
 
 ### Sprint 10 - Due 10/6
+* Final updates before release
+* Start Marketing
 * Prepare for launch
 * Ship Product
-* Start Marketing
+* Launch Party
 * Plan for future
