@@ -267,6 +267,7 @@
     <child-task idref="t49"/>
     <child-task idref="t50"/>
     <child-task idref="t51"/>
+    <child-task idref="t86"/>
     <start-no-earlier-than>2014-05-19T22:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t46">
@@ -325,39 +326,382 @@
   </task>
   <task id="t57">
     <title>Sprint 5</title>
-    <effort>288000</effort>
+    <type>group</type>
     <start-constraint-date>2014-06-02T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t64"/>
+    <child-task idref="t65"/>
+    <child-task idref="t66"/>
+    <child-task idref="t67"/>
+    <child-task idref="t68"/>
+    <child-task idref="t69"/>
+    <child-task idref="t70"/>
+    <child-task idref="t71"/>
+    <child-task idref="t83"/>
     <start-no-earlier-than>2014-06-02T22:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t58">
     <title>Sprint 6</title>
-    <effort>288000</effort>
+    <type>group</type>
     <start-constraint-date>2014-06-16T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t72"/>
+    <child-task idref="t73"/>
+    <child-task idref="t74"/>
+    <child-task idref="t75"/>
+    <child-task idref="t76"/>
+    <child-task idref="t77"/>
+    <child-task idref="t78"/>
     <start-no-earlier-than>2014-06-16T22:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t59">
     <title>Sprint 7</title>
-    <effort>288000</effort>
+    <type>group</type>
     <start-constraint-date>2014-06-30T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t79"/>
+    <child-task idref="t80"/>
+    <child-task idref="t81"/>
+    <child-task idref="t103"/>
     <start-no-earlier-than>2014-06-30T22:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t60">
     <title>Sprint 8</title>
-    <effort>288000</effort>
+    <type>group</type>
     <start-constraint-date>2014-07-14T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t88"/>
+    <child-task idref="t89"/>
+    <child-task idref="t90"/>
+    <child-task idref="t95"/>
+    <child-task idref="t97"/>
+    <child-task idref="t102"/>
+    <child-task idref="t116"/>
     <start-no-earlier-than>2014-07-14T22:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t61">
     <title>Sprint 9</title>
-    <effort>288000</effort>
+    <type>group</type>
     <start-constraint-date>2014-07-28T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t98"/>
+    <child-task idref="t99"/>
+    <child-task idref="t115"/>
+    <child-task idref="t100"/>
+    <child-task idref="t101"/>
+    <child-task idref="t108"/>
     <start-no-earlier-than>2014-07-28T22:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t62">
     <title>Sprint 10</title>
-    <effort>288000</effort>
+    <type>group</type>
     <start-constraint-date>2014-08-11T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t106"/>
+    <child-task idref="t107"/>
+    <child-task idref="t109"/>
+    <child-task idref="t110"/>
+    <child-task idref="t111"/>
+    <child-task idref="t112"/>
     <start-no-earlier-than>2014-08-11T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t64">
+    <title>Backend Implementation for Klout</title>
+    <effort>115200</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t65">
+    <title>Backend Implementation for Github</title>
+    <effort>172800</effort>
+    <start-constraint-date>2014-06-08T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-06-08T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t66">
+    <title>Front End Implementation for Klout</title>
+    <effort>86400</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t67">
+    <title>Front End Implementation for Github</title>
+    <effort>201600</effort>
+    <start-constraint-date>2014-06-05T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-06-05T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t68">
+    <title>Designs for Facebook Integration</title>
+    <effort>201600</effort>
+    <start-constraint-date>2014-06-05T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-06-05T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t69">
+    <title>Designs for Twitter Integration</title>
+    <effort>201600</effort>
+    <start-constraint-date>2014-06-05T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-06-05T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t70">
+    <title>Validation for Facebook Integration</title>
+    <effort>86400</effort>
+    <start-constraint-date>2014-06-02T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-06-02T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t71">
+    <title>Validation for Twitter Integration</title>
+    <effort>86400</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t72">
+    <title>Backend Implementation for Facebook Integration</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t73">
+    <title>Backend Implementation for Twitter Integration</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t74">
+    <title>Front End Implementation for Facebook Integration</title>
+    <effort>144000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t75">
+    <title>Front End Implementation for Twitter Integration</title>
+    <effort>144000</effort>
+    <start-constraint-date>2014-06-23T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-06-23T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t76">
+    <title>Designs for Maps Integration</title>
+    <effort>172800</effort>
+    <start-constraint-date>2014-06-22T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-06-22T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t77">
+    <title>Validation for Maps Integration</title>
+    <effort>115200</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t78">
+    <title>Begin to scope out partnerships with other companies</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t79">
+    <title>Backend Implementation for Maps and Directions Integration</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t80">
+    <title>Front End Implementation for Maps and Directions Integration</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-06-30T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-06-30T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t81">
+    <title>Design and UX Quality Checking</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t83">
+    <title>Implement advertising strategy</title>
+    <type>group</type>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t84"/>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t84">
+    <title>Begin to sign up beta testers</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t86">
+    <title>Develop advertising strategy for beta test users</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t88">
+    <title>General Front End Bug Fixing</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t89">
+    <title>General Back End Bug Fixing</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t90">
+    <title>Security Testing</title>
+    <type>group</type>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t91"/>
+    <child-task idref="t92"/>
+    <child-task idref="t93"/>
+    <child-task idref="t94"/>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t91">
+    <title>Testing Facebook Integration Security</title>
+    <effort>86400</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t92">
+    <title>Testing Twitter Integration Security</title>
+    <effort>86400</effort>
+    <start-constraint-date>2014-07-17T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-07-17T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t93">
+    <title>Testing Email Integration Security</title>
+    <effort>57600</effort>
+    <start-constraint-date>2014-07-22T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-07-22T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t94">
+    <title>Testing Github Integration Security</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-07-24T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-07-24T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t95">
+    <title>Transition from Development Environment to Production Environment</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-07-24T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-07-24T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t97">
+    <title>Begin controlled User Testing</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-07-27T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-07-27T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t98">
+    <title>General Front End Bug Fixing</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t99">
+    <title>General Back End Bug Fixing</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t100">
+    <title>Load Testing of Production Servers</title>
+    <effort>86400</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t101">
+    <title>Send out closed beta invitations</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-08-04T22:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t108" kind="SF"/>
+    <start-no-earlier-than>2014-08-04T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t102">
+    <title>Design and UX Quality Checking</title>
+    <effort>288000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t103">
+    <title>Start developing a concrete marketing strategy</title>
+    <type>group</type>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t104"/>
+    <child-task idref="t105"/>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t104">
+    <title>Competitor Analysis</title>
+    <effort>144000</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t105">
+    <title>A/B Testing a variety of different channels</title>
+    <effort>144000</effort>
+    <start-constraint-date>2014-07-07T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-07-07T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t106">
+    <title>Implement Advertising and Marketing Strategies</title>
+    <type>group</type>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <child-task idref="t113"/>
+    <child-task idref="t114"/>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t107">
+    <title>Gathering Feedback from Beta Participants</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t108">
+    <title>Begin Closed Beta</title>
+    <effort>115200</effort>
+    <start-constraint-date>2014-08-05T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-08-05T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t109">
+    <title>Open Beta testing begins</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t110">
+    <title>Develop monetisation strategy</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t111">
+    <title>Integrate with Payment gateway</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t112">
+    <title>Task 1</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t113">
+    <title>A/B testing social channels</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t114">
+    <title>Google Adwords</title>
+    <effort>28800</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t115">
+    <title>Google Analytics Setup</title>
+    <effort>86400</effort>
+    <start-constraint-date>2014-04-06T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-04-06T22:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t116">
+    <title>Design Beta Emails</title>
+    <effort>144000</effort>
+    <start-constraint-date>2014-07-14T22:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-07-14T22:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
