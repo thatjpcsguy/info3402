@@ -66,8 +66,14 @@
 
 ### Sprint 6 - Due 13/5
 * Complete Facebook Integration
+	* Backend 
+	* front end (gui)
 * Complete Twitter Integration
+* 	* Backend 
+	* front end (gui)
 * Complete Instagram Integration
+* 	* Backend 
+	* front end (gui)
 * Organise partnerships with leading companies who might develop wydgetz for their own services.
 
 
