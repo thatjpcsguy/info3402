@@ -6,16 +6,15 @@
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>384</split-view-divider-position>
-      <outline x="0" y="1388" w="384" h="1310">
-        <column name="Violations" width="20"/>
-        <column name="Notes" width="20"/>
-        <column name="Title" width="269"/>
-        <column name="Effort" width="70"/>
+      <split-view-divider-position>535</split-view-divider-position>
+      <outline x="0" y="0" w="535" h="1310">
+        <column name="Title" width="331"/>
+        <column name="Start" width="100"/>
+        <column name="End" width="100"/>
         <expanded-items idrefs="t83 t106 t61 t44 t58 t90 t1 t62 t34 t17 t59 t60 t103 t57"/>
         <selected-items-at-filter-time idrefs="t73 t81 t58 t66 t109 t74 t59 t82 t67 t90 t75 t83 t110 t68 t91 t76 t84 t92 t69 t77 t10 t111 t85 t93 t78 t100 t11 t86 t94 t79 t112 t87 t95 t101 t88 t21 t96 t113 t89 t22 t97 t102 t15 t98 t114 t24 t103 t99 t40 t17 t25 t115 t41 t104 t34 t19 t42 t50 t27 t116 t105 t51 t28 t36 t44 t52 t29 t60 t106 t53 t38 t61 t46 t4 t62 t39 t107 t5 t47 t70 t55 t71 t48 t7 t56 t64 t8 t108 t72 t49 t57 t80 t9 t65"/>
       </outline>
-      <gantt-view x="2162" y="1388" w="2175" h="1310">
+      <gantt-view x="2162" y="0" w="2024" h="1310">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
